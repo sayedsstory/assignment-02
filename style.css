@@ -1,4 +1,4 @@
- /* google font */
+ /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
 
 
@@ -38,7 +38,7 @@ a{
     text-align: center;
 }
 
-/* hero section  */
+/* top-section  */
 .hero-section{
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ a{
     background-image: url(image/Circle\ design.svg);
     background-size: cover;
 }
-/* collection section  */
+/* collection-section  */
 .section-title h2{
     font-size: 1.5rem;
     padding-bottom: 50px;
@@ -103,10 +103,7 @@ a{
 i.fas.fa-star {
     color: orange;
 }
-i.fas.fa-star:nth-last-child(2){
-    color: #d4cfcf;
-}
-.Rating-points span{
+.rating span{
     font-weight: 600;
     font-size: .8rem;;
 }
