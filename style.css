@@ -359,7 +359,7 @@ input[type="submit"]:hover {
         text-align: center;
       }
       .section-one-top {
-        padding-bottom: 0;
+        padding-bottom: 5px;
       }
       .website-log {
         padding-top: 0;
