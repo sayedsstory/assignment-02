@@ -1,0 +1,118 @@
+ /* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+
+
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.50%;
+    background-color:#eeecec;
+}
+:root{
+    --button-color:#5A20CB;
+}
+.container{
+    width: 	1140px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+.btn{
+   color: white;
+   background-color: var(--button-color);
+   font-size: .9rem;
+   padding:10px 20px;
+   font-weight: 500;
+}
+.text-center{
+    text-align: center;
+}
+
+/* hero section  */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-title{
+    width: 40%;
+
+}
+.hero-title h1{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+
+}
+.hero-title p{
+    font-size: .8rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.hero-title .btn{
+    border-radius: 20px;
+}
+.fa-arrow-right{
+    font-size: .7rem;
+    padding-left: 5px;
+}
+.hero-img{
+    background-image: url(image/Circle\ design.svg);
+    background-size: cover;
+}
+/* collection section  */
+.section-title h2{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+.collection-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.collection{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+
+}
+.collection-title{
+    padding-bottom:5px;
+}
+.collection-title h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.collection-title span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+i.fas.fa-star {
+    color: orange;
+}
+i.fas.fa-star:nth-last-child(2){
+    color: #d4cfcf;
+}
+.Rating-points span{
+    font-weight: 600;
+    font-size: .8rem;;
+}
+.collection h4{
+    font-size: .8rem;
+    color: #868686;
+}
+
+
